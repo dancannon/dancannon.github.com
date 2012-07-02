@@ -1,29 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[Daniel Cannon]]></title>
-  <link href="http://dancannon.github.com/atom.xml" rel="self"/>
-  <link href="http://dancannon.github.com/"/>
-  <updated>2012-07-02T22:53:51+01:00</updated>
-  <id>http://dancannon.github.com/</id>
-  <author>
-    <name><![CDATA[Daniel Cannon]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Building a real application with BackboneJS - Daniel Cannon</title>
+  <meta name="author" content="Daniel Cannon">
+  <meta name="Generator" content="Jekyll & Octopress (http://octopress.org)">
 
   
-    <entry>
-      
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://dancannon.github.com/2012/07/02/building-a-real-application-with-backbonejs/">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/octopress.min.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Daniel Cannon" type="application/atom+xml">
+  
+
+<!--Fonts from Google's Web font directory at http://google.com/webfonts -->
+<link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29074171-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+   
+  <link href="/octopress-favicon.png" rel="icon">
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Daniel Cannon</a></h1>
+  
+    <h2>My personal blog where I share the things that I find interesting!</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:dancannon.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
 
 
 
 
-<title type="html"><![CDATA[Building a real application with BackboneJS]]></title>
-<link href="http://dancannon.github.com/2012/07/02/building-a-real-application-with-backbonejs/"/>
-<updated>2012-07-02T16:12:00+01:00</updated>
-<id>http://dancannon.github.com/2012/07/02/building-a-real-application-with-backbonejs</id>
 
-      <content type="html"><![CDATA[<p>A couple of months ago I began looking at new things to learn and BackboneJS caught my eye. So I started looking for articles and tutorials however I quickly realised that they only covered very simple concepts(AKA to-do apps). So I began this project with the goal of creating a more full featured application.</p>
+
+
+
+
+
+
+<article class="hentry " role="article">
+  
+  <header>
+    <h1 class="entry-title">
+
+Building a Real Application With BackboneJS
+
+</h1>
+
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-02T16:12:00+01:00" pubdate data-updated="true">Jul 2<span>nd</span>, 2012</time>
+         &bull; <a rel="bookmark" href="/2012/07/02/building-a-real-application-with-backbonejs/">Permalink</a>
+      </p>
+    
+  </header>
+
+<div class="entry-content"><p>A couple of months ago I began looking at new things to learn and BackboneJS caught my eye. So I started looking for articles and tutorials however I quickly realised that they only covered very simple concepts(AKA to-do apps). So I began this project with the goal of creating a more full featured application.</p>
 
 <p>The application I choose to create was a jsFiddle style application  that includes the ability to create multiple files.  However the point of this article isn’t just to talk about why I made this application but to share with you what I learnt.</p>
 
@@ -151,7 +244,154 @@
 <p>To load templates the application first the cache and if it is not found it then loads the template from the server using ajax. It then caches the template and returns the content. For the cache I choose to use session storage with a fallback to a javascript object.</p>
 
 <p>The reason that I choose to cache the content instead of including the templates with the rest of the javascript files is that this way the templates only have to be loaded once however in my testing the differences in page loads were negligible.</p>
-<p><a rel="bookmark" href="http://dancannon.github.com/2012/07/02/building-a-real-application-with-backbonejs/">&#9875; Permalink</a></p>]]></content>
-    </entry>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
   
-</feed>
+
+<span class="byline author vcard">Posted by <span class="fn">Daniel Cannon</span></span>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-02T16:12:00+01:00" pubdate data-updated="true">Jul 2<span>nd</span>, 2012</time>
+
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/backbonejs/'>BackboneJS</a>
+  
+</span>
+
+
+
+      
+
+    </p>
+    
+      <div class="sharing">
+  
+    
+      <a href="http://twitter.com/share" title="Tweet this" class="twitter-share" target="_blank">Tweet</a>
+    
+  
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+      
+    </p>
+  </footer>
+</article>
+
+<section>
+  <h1>Comments</h1>
+  
+
+  
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  
+</section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2012/07/02/building-a-real-application-with-backbonejs/">Building a real application with BackboneJS</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>On GitHub</h1>
+  <ul id="gh_repos" data-user="dancannon" data-count="0" data-skip="true">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a class="github-follow" href="https://github.com/dancannon">Follow @dancannon</a>
+  
+</section>
+
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets" data-user="_dancannon" data-count="4" data-replies="false">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+    <a href="http://twitter.com/_dancannon" class="twitter-follow-button" data-show-count="false">Follow @_dancannon</a>
+  
+</section>
+
+
+
+
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Daniel Cannon -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'danielcannon';
+			var disqus_developer = '0';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://dancannon.github.com/2012/07/02/building-a-real-application-with-backbonejs/';
+        var disqus_url = 'http://dancannon.github.com/2012/07/02/building-a-real-application-with-backbonejs/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+</body>
+</html>
