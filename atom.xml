@@ -3,7 +3,7 @@
   <title><![CDATA[Daniel Cannon]]></title>
   <link href="http://dancannon.github.com/atom.xml" rel="self"/>
   <link href="http://dancannon.github.com/"/>
-  <updated>2012-07-06T22:28:05+01:00</updated>
+  <updated>2012-07-07T18:17:36+01:00</updated>
   <id>http://dancannon.github.com/</id>
   <author>
     <name><![CDATA[Daniel Cannon]]></name>
@@ -40,7 +40,7 @@
 
 <h2>Modularity</h2>
 
-<p>Modularity is a key part of any application so it was important to ensure that all parts of this application were as modular as possible. Backbone boilerplate and RequireJS help this by keeping modules in separate files and managing dependencies however for a large scale application the most important thing is events. Backbone has a powerful event system which should be used to send events between different modules using the name-spaced app object. Here is an example from the application.</p>
+<p>Modularity is a key part of any application so it was important to ensure that all parts of this application were as modular as possible. Backbone boilerplate and RequireJS help this by keeping modules in separate files and managing dependencies. Another important thing to take note of is events, this is because events allow you to pass information between different modules allowing for loose coupling which in turn makes your code more maintainable. It also means that there are fewer dependencies between modules. Backbone has a powerful event system which should be used to send events between different modules using the name-spaced app object. Here is an example from the application.</p>
 
 <figure class='code'><figcaption><span>Trigger an event </span><a href='https://github.com/dancannon/WebIDE/blob/master/src/WebIDE/SiteBundle/Resources/public_src/js/app/modules/header.js#L50' title='Download code'> Source</a></figcaption><div class='highlight'><table><td class='gutter'><pre class='line-numbers'><span class='line-number'>1</span>
 <span class='line-number'>2</span>
