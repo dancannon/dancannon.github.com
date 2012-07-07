@@ -10,7 +10,7 @@ A couple of months ago when I started looking at new things to learn BackboneJS 
 
 The application I choose to create was a jsFiddle style application  that includes the ability to create multiple files.  However the point of this article isn’t just to talk about why I made this application but to share with you what I learnt.
 
-[Application](http://webide.co/) | [Public Example](https://webide.co/6) | [Source](https://github.com/dancannon/WebIDE/)
+[Application](http://webide.co/) | [Public Example](http://webide.co/6) | [Source](https://github.com/dancannon/WebIDE/)
 
 <!--More -->
 
