@@ -3,7 +3,7 @@
   <title><![CDATA[Daniel Cannon]]></title>
   <link href="http://dancannon.github.com/atom.xml" rel="self"/>
   <link href="http://dancannon.github.com/"/>
-  <updated>2012-07-07T18:21:55+01:00</updated>
+  <updated>2012-07-07T18:22:51+01:00</updated>
   <id>http://dancannon.github.com/</id>
   <author>
     <name><![CDATA[Daniel Cannon]]></name>
@@ -27,7 +27,7 @@
 
 <p>The application I choose to create was a jsFiddle style application  that includes the ability to create multiple files.  However the point of this article isn’t just to talk about why I made this application but to share with you what I learnt.</p>
 
-<p><a href="http://webide.co/">Application</a> | <a href="https://webide.co/6">Public Example</a> | <a href="https://github.com/dancannon/WebIDE/">Source</a></p>
+<p><a href="http://webide.co/">Application</a> | <a href="http://webide.co/6">Public Example</a> | <a href="https://github.com/dancannon/WebIDE/">Source</a></p>
 
 <!--More -->
 
