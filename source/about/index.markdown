@@ -9,7 +9,7 @@ footer: true
 
 I’m a Developer currently studying Computer Science at the University of Birmingham in the UK.
 
-I have over 3 years experience in PHP, MySQL and JavaScript aswell as experience with languages such as Java. I have also worked on a number of [open-source projects](https://github.com/) such as the only IDE [WebIDE.co](http://webide.co) and a PHP library for connecting to Blizzards Battle.net APIs.
+I have over 3 years experience in PHP, MySQL and JavaScript aswell as experience with languages such as Java. I have also worked on a number of [open-source projects](https://github.com/dancannon) such as the only IDE [WebIDE.co](http://webide.co) and a PHP library for connecting to Blizzards Battle.net APIs.
 
 <div id="wufoo-z7x4a3">
 	Fill out my <a href="http://danielcannon.wufoo.com/forms/z7x4a3">online form</a>.
